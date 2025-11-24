@@ -1,4 +1,5 @@
-FROM node:20.19.5-alpine3.22
+## Use Small & Secure Base Images
+FROM node:20.19.5-alpine3.22  
 WORKDIR /opt/server
 COPY package.json .
 COPY *.js .
