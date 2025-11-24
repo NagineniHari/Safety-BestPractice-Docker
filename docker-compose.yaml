@@ -71,6 +71,10 @@ networks:
    external: false ## True if you created network manually using docker network command.
 volumes:
   mongodb:
+   name: "mongodb"
   redis:
+   name: "redis"
   mysql:
+   name: "mysql"
   rabbitmq:
+   name: "rabbitmq"
