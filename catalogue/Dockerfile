@@ -5,7 +5,6 @@ COPY package.json .
 COPY *.js .
 ##This may add extra caching memory
 RUN npm install 
-
 FROM node:20.19.5-alpine3.22
 WORKDIR /opt/server
 RUN addgroup -S roboshop && adduser -S roboshop -G roboshop 
