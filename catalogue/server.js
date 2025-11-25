@@ -7,7 +7,7 @@ instana({
     }
 });
 
-// Testing best practices and layers
+// Testing the layers concept in docker
 
 const { MongoClient, ObjectId } = require('mongodb');
 const bodyParser = require('body-parser');
