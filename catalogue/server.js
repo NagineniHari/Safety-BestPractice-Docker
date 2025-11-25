@@ -7,7 +7,7 @@ instana({
     }
 });
 
-// Testing the layers concept and best practies in docker
+// Testing the layers concept and best practies docker file creation in docker
 
 const { MongoClient, ObjectId } = require('mongodb');
 const bodyParser = require('body-parser');
