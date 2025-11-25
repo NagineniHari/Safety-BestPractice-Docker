@@ -7,6 +7,8 @@ instana({
     }
 });
 
+// Testing best practices
+
 const { MongoClient, ObjectId } = require('mongodb');
 const bodyParser = require('body-parser');
 const express = require('express');
