@@ -3,6 +3,7 @@ FROM python:3.9.25-alpine3.21 AS builder
 WORKDIR /build
 # Install build dependencies
 RUN apk add --no-cache python3-dev build-base linux-headers pcre-dev
+# Only requirements first for caching
 COPY requirements.txt .
 RUN pip3 install --no-cache-dir --prefix=/install -r requirements.txt
 
